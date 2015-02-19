@@ -21,23 +21,23 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
-    imageURLArray = [[NSArray alloc]initWithObjects:@"http://stage.youareaceo.com/m/photos/get_image/mint/db894a440e7817c9a76213f7a08f7b7f.jpg",
-                     @"http://stage.youareaceo.com/m/photos/get_image/mint/cc224cfbd4bfab15f21f8123aa7c6491.jpg",
-                     @"http://stage.youareaceo.com/m/photos/get_image/mint/c0dbd6edf498e41fa5273532a6a45e57.jpg",
-                     @"http://stage.youareaceo.com/flash/modules/video/files/2804.jpg",
-                     @"http://stage.youareaceo.com/m/photos/get_image/mint/bd006e44a1d01b05fb3f133a809651cf.png",
-                     @"http://stage.youareaceo.com/m/photos/get_image/mint/da6b8aad45691a6ced6a2ab2a256f104.jpg",
-                     @"http://stage.youareaceo.com/m/photos/get_image/mint/728499a9d6ddbfad7baf10bda25e2d5c.jpg",
-                     @"http://stage.youareaceo.com/m/photos/get_image/mint/e784580361bc0331859bb43bc5b2a778.jpg",
-                     @"http://stage.youareaceo.com/m/photos/get_image/mint/cc224cfbd4bfab15f21f8123aa7c6491.jpg",
-                     @"http://stage.youareaceo.com/m/photos/get_image/mint/c0dbd6edf498e41fa5273532a6a45e57.jpg",
-                     @"http://stage.youareaceo.com/flash/modules/video/files/2804.jpg",
-                     @"http://stage.youareaceo.com/m/photos/get_image/mint/bd006e44a1d01b05fb3f133a809651cf.png",
-                     @"http://stage.youareaceo.com/m/photos/get_image/mint/da6b8aad45691a6ced6a2ab2a256f104.jpg",
-                     @"http://stage.youareaceo.com/m/photos/get_image/mint/728499a9d6ddbfad7baf10bda25e2d5c.jpg",
-                     @"http://stage.youareaceo.com/m/photos/get_image/mint/e784580361bc0331859bb43bc5b2a778.jpg",
+    imageURLArray = [[NSArray alloc]initWithObjects:@"http://google.com/m/photos/get_image/mint/db894a440e7817c9a76213f7a08f7b7f.jpg",
+                     @"http://google.com/m/photos/get_image/mint/cc224cfbd4bfab15f21f8123aa7c6491.jpg",
+                     @"http://google.com/m/photos/get_image/mint/c0dbd6edf498e41fa5273532a6a45e57.jpg",
+                     @"http://google.com/flash/modules/video/files/2804.jpg",
+                     @"http://google.com/m/photos/get_image/mint/bd006e44a1d01b05fb3f133a809651cf.png",
+                     @"http://google.com/m/photos/get_image/mint/da6b8aad45691a6ced6a2ab2a256f104.jpg",
+                     @"http://google.com/m/photos/get_image/mint/728499a9d6ddbfad7baf10bda25e2d5c.jpg",
+                     @"http://google.com/m/photos/get_image/mint/e784580361bc0331859bb43bc5b2a778.jpg",
+                     @"http://google.com/m/photos/get_image/mint/cc224cfbd4bfab15f21f8123aa7c6491.jpg",
+                     @"http://google.com/m/photos/get_image/mint/c0dbd6edf498e41fa5273532a6a45e57.jpg",
+                     @"http://google.com/flash/modules/video/files/2804.jpg",
+                     @"http://google.com/m/photos/get_image/mint/bd006e44a1d01b05fb3f133a809651cf.png",
+                     @"http://google.com/m/photos/get_image/mint/da6b8aad45691a6ced6a2ab2a256f104.jpg",
+                     @"http://google.com/m/photos/get_image/mint/728499a9d6ddbfad7baf10bda25e2d5c.jpg",
+                     @"http://google.com/m/photos/get_image/mint/e784580361bc0331859bb43bc5b2a778.jpg",
                      nil];
+
     feedArray = [[NSMutableArray alloc]init];
     
     self.imageDownloadsInProgress     = [NSMutableDictionary dictionary];
